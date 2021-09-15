@@ -4,7 +4,7 @@ let petNames = ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Sa
 withSal = petNames
 withSal.push('Sal')
 
-//withSal = [petNames + (', Sal')]
+
 
 console.log(withSal)
 console.log(`The third pet is name ${withSal[2]}`)
