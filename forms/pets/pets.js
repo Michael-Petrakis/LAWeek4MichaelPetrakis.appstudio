@@ -1,6 +1,18 @@
 let petNames = ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Saddie', 
 'Marge', 'Sam']
 
-let withSal = petNames + ['Sal']
+withSal = petNames
+withSal.push('Sal')
 
-console.log(petNames)
+//withSal = [petNames + (', Sal')]
+
+console.log(withSal)
+console.log(`The third pet is name ${withSal[2]}`)
+
+let lengthWithSal = withSal.length
+
+console.log(lengthWithSal)
+
+withSal.pop()
+
+console.log(withSal)
